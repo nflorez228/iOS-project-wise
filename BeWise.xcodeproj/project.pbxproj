@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EC8771ABCF92F3470939E1 /* Pods_BeWiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49BB5CF927CE4E39D671D8F /* Pods_BeWiseTests.framework */; };
+		750522FD1DD29E8E002EBF13 /* newhub1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522F61DD29E8E002EBF13 /* newhub1.jpg */; };
+		750522FE1DD29E8E002EBF13 /* newhub2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522F71DD29E8E002EBF13 /* newhub2.jpg */; };
+		750522FF1DD29E8E002EBF13 /* newhub3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522F81DD29E8E002EBF13 /* newhub3.jpg */; };
+		750523001DD29E8E002EBF13 /* newhub4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522F91DD29E8E002EBF13 /* newhub4.jpg */; };
+		750523011DD29E8E002EBF13 /* newhub5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522FA1DD29E8E002EBF13 /* newhub5.jpg */; };
+		750523021DD29E8E002EBF13 /* newhub6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522FB1DD29E8E002EBF13 /* newhub6.jpg */; };
+		750523031DD29E8E002EBF13 /* newhub7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 750522FC1DD29E8E002EBF13 /* newhub7.jpg */; };
+		750523051DD40389002EBF13 /* WifiDetectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750523041DD40389002EBF13 /* WifiDetectedViewController.swift */; };
+		750523071DD4119D002EBF13 /* NoWifiDetectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750523061DD4119D002EBF13 /* NoWifiDetectedViewController.swift */; };
+		750B525E1DCC437D00CBB039 /* logobwblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 750B525D1DCC437D00CBB039 /* logobwblue.png */; };
+		7565643A1DD778FE002995FA /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756564391DD778FE002995FA /* WebViewViewController.swift */; };
+		757CD3621DD4EE0200A5E74E /* SoketIOConfigureHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757CD3611DD4EE0100A5E74E /* SoketIOConfigureHubViewController.swift */; };
+		759BB97D1DD42EAC00D5DC1F /* SearchHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759BB97C1DD42EAC00D5DC1F /* SearchHubViewController.swift */; };
+		75A15A9E1DCCF2EF00B5A1AF /* ConfigureHubPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A15A9D1DCCF2EF00B5A1AF /* ConfigureHubPageViewController.swift */; };
+		75A15AA11DCD72FE00B5A1AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A15AA01DCD72FE00B5A1AF /* MainViewController.swift */; };
+		75A654D01DCDA2920082DC13 /* cardview_image_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A654CC1DCDA2920082DC13 /* cardview_image_top.png */; };
+		75A654D11DCDA2920082DC13 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 75A654CD1DCDA2920082DC13 /* giphy.gif */; };
+		75A654D21DCDA2920082DC13 /* hub.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A654CE1DCDA2920082DC13 /* hub.png */; };
+		75A654D31DCDA2920082DC13 /* logobw.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A654CF1DCDA2920082DC13 /* logobw.png */; };
+		75B14A7B1DD559290048B055 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B14A7A1DD559290048B055 /* PlacesViewController.swift */; };
+		75B14A7F1DD55FDC0048B055 /* PlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B14A7E1DD55FDC0048B055 /* PlaceCollectionViewCell.swift */; };
+		75B14A861DD56A620048B055 /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A801DD56A620048B055 /* a.jpg */; };
+		75B14A871DD56A620048B055 /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A811DD56A620048B055 /* b.jpg */; };
+		75B14A881DD56A620048B055 /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A821DD56A620048B055 /* c.jpg */; };
+		75B14A891DD56A620048B055 /* d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A831DD56A620048B055 /* d.jpg */; };
+		75B14A8A1DD56A620048B055 /* e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A841DD56A620048B055 /* e.jpg */; };
+		75B14A8B1DD56A620048B055 /* f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B14A851DD56A620048B055 /* f.jpg */; };
+		75B14A8D1DD56DD70048B055 /* etensionUIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B14A8C1DD56DD70048B055 /* etensionUIimage.swift */; };
+		75CB2EF01DCE524B0057E9BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB2EEF1DCE524B0057E9BE /* SignUpViewController.swift */; };
+		75CB2EF21DCE65090057E9BE /* ChooseHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CB2EF11DCE65090057E9BE /* ChooseHubViewController.swift */; };
+		75CB2EF41DCE7CC90057E9BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CB2EF31DCE7CC90057E9BE /* GoogleService-Info.plist */; };
+		75E42D4F1EFB0D1F00834927 /* H1A.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E42D4A1EFB0D1F00834927 /* H1A.png */; };
+		75E42D501EFB0D1F00834927 /* H2A.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E42D4B1EFB0D1F00834927 /* H2A.png */; };
+		75E42D511EFB0D1F00834927 /* H3A.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E42D4C1EFB0D1F00834927 /* H3A.png */; };
+		75E42D521EFB0D1F00834927 /* H4A.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E42D4D1EFB0D1F00834927 /* H4A.png */; };
+		75E42D531EFB0D1F00834927 /* H5A.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E42D4E1EFB0D1F00834927 /* H5A.png */; };
+		75E42D551EFB1C2600834927 /* Places2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E42D541EFB1C2600834927 /* Places2ViewController.swift */; };
+		75E42D571EFB2A6600834927 /* Place2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E42D561EFB2A6600834927 /* Place2CollectionViewCell.swift */; };
+		75E42D5B1EFB3BAC00834927 /* IPChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E42D5A1EFB3BAC00834927 /* IPChecker.m */; };
+		75E706D71DCC0F4400D0668D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E706D61DCC0F4400D0668D /* AppDelegate.swift */; };
+		75E706DC1DCC0F4400D0668D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E706DA1DCC0F4400D0668D /* Main.storyboard */; };
+		75E706DE1DCC0F4400D0668D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E706DD1DCC0F4400D0668D /* Assets.xcassets */; };
+		75E706E11DCC0F4400D0668D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E706DF1DCC0F4400D0668D /* LaunchScreen.storyboard */; };
+		75E706EC1DCC0F4400D0668D /* BeWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E706EB1DCC0F4400D0668D /* BeWiseTests.swift */; };
+		75E706F71DCC0F4400D0668D /* BeWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E706F61DCC0F4400D0668D /* BeWiseUITests.swift */; };
+		BC4529080A77B1FE09B6E6CB /* Pods_BeWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BC18E84DADB12FBE5B2229 /* Pods_BeWise.framework */; };
+		F064E1DC4BDA39AE467BE814 /* Pods_BeWiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836507247E402558C0FFF0B /* Pods_BeWiseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E706E81DCC0F4400D0668D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E706CB1DCC0F4400D0668D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E706D21DCC0F4400D0668D;
+			remoteInfo = BeWise;
+		};
+		75E706F31DCC0F4400D0668D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E706CB1DCC0F4400D0668D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E706D21DCC0F4400D0668D;
+			remoteInfo = BeWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056A4998067ACD35B0F3AE5B /* Pods-BeWiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		124578C31441CB0679383516 /* Pods-BeWiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1636ED99A10D0EFB93464D02 /* Pods-BeWiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWiseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48BC18E84DADB12FBE5B2229 /* Pods_BeWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750522F51DD28DF9002EBF13 /* BeWise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeWise.entitlements; sourceTree = "<group>"; };
+		750522F61DD29E8E002EBF13 /* newhub1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub1.jpg; path = Images/newhub1.jpg; sourceTree = SOURCE_ROOT; };
+		750522F71DD29E8E002EBF13 /* newhub2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub2.jpg; path = Images/newhub2.jpg; sourceTree = SOURCE_ROOT; };
+		750522F81DD29E8E002EBF13 /* newhub3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub3.jpg; path = Images/newhub3.jpg; sourceTree = SOURCE_ROOT; };
+		750522F91DD29E8E002EBF13 /* newhub4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub4.jpg; path = Images/newhub4.jpg; sourceTree = SOURCE_ROOT; };
+		750522FA1DD29E8E002EBF13 /* newhub5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub5.jpg; path = Images/newhub5.jpg; sourceTree = SOURCE_ROOT; };
+		750522FB1DD29E8E002EBF13 /* newhub6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub6.jpg; path = Images/newhub6.jpg; sourceTree = SOURCE_ROOT; };
+		750522FC1DD29E8E002EBF13 /* newhub7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = newhub7.jpg; path = Images/newhub7.jpg; sourceTree = SOURCE_ROOT; };
+		750523041DD40389002EBF13 /* WifiDetectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiDetectedViewController.swift; sourceTree = "<group>"; };
+		750523061DD4119D002EBF13 /* NoWifiDetectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoWifiDetectedViewController.swift; sourceTree = "<group>"; };
+		750B525D1DCC437D00CBB039 /* logobwblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logobwblue.png; path = Images/logobwblue.png; sourceTree = SOURCE_ROOT; };
+		756564391DD778FE002995FA /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		757CD3611DD4EE0100A5E74E /* SoketIOConfigureHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoketIOConfigureHubViewController.swift; sourceTree = "<group>"; };
+		759BB97C1DD42EAC00D5DC1F /* SearchHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHubViewController.swift; sourceTree = "<group>"; };
+		75A15A9D1DCCF2EF00B5A1AF /* ConfigureHubPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureHubPageViewController.swift; sourceTree = "<group>"; };
+		75A15A9F1DCCF8B800B5A1AF /* BeWise-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BeWise-Bridging-Header.h"; sourceTree = "<group>"; };
+		75A15AA01DCD72FE00B5A1AF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		75A654CC1DCDA2920082DC13 /* cardview_image_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardview_image_top.png; path = Images/cardview_image_top.png; sourceTree = SOURCE_ROOT; };
+		75A654CD1DCDA2920082DC13 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = Images/giphy.gif; sourceTree = SOURCE_ROOT; };
+		75A654CE1DCDA2920082DC13 /* hub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hub.png; path = Images/hub.png; sourceTree = SOURCE_ROOT; };
+		75A654CF1DCDA2920082DC13 /* logobw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logobw.png; path = Images/logobw.png; sourceTree = SOURCE_ROOT; };
+		75B14A7A1DD559290048B055 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		75B14A7E1DD55FDC0048B055 /* PlaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		75B14A801DD56A620048B055 /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = a.jpg; path = Images/a.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A811DD56A620048B055 /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b.jpg; path = Images/b.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A821DD56A620048B055 /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = c.jpg; path = Images/c.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A831DD56A620048B055 /* d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = d.jpg; path = Images/d.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A841DD56A620048B055 /* e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = e.jpg; path = Images/e.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A851DD56A620048B055 /* f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = f.jpg; path = Images/f.jpg; sourceTree = SOURCE_ROOT; };
+		75B14A8C1DD56DD70048B055 /* etensionUIimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = etensionUIimage.swift; sourceTree = "<group>"; };
+		75CB2EEF1DCE524B0057E9BE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../BeWise/SignUpViewController.swift; sourceTree = "<group>"; };
+		75CB2EF11DCE65090057E9BE /* ChooseHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseHubViewController.swift; sourceTree = "<group>"; };
+		75CB2EF31DCE7CC90057E9BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		75E42D4A1EFB0D1F00834927 /* H1A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = H1A.png; path = Images/H1A.png; sourceTree = SOURCE_ROOT; };
+		75E42D4B1EFB0D1F00834927 /* H2A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = H2A.png; path = Images/H2A.png; sourceTree = SOURCE_ROOT; };
+		75E42D4C1EFB0D1F00834927 /* H3A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = H3A.png; path = Images/H3A.png; sourceTree = SOURCE_ROOT; };
+		75E42D4D1EFB0D1F00834927 /* H4A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = H4A.png; path = Images/H4A.png; sourceTree = SOURCE_ROOT; };
+		75E42D4E1EFB0D1F00834927 /* H5A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = H5A.png; path = Images/H5A.png; sourceTree = SOURCE_ROOT; };
+		75E42D541EFB1C2600834927 /* Places2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places2ViewController.swift; sourceTree = "<group>"; };
+		75E42D561EFB2A6600834927 /* Place2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place2CollectionViewCell.swift; sourceTree = "<group>"; };
+		75E42D591EFB3B8900834927 /* IPChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPChecker.h; sourceTree = "<group>"; };
+		75E42D5A1EFB3BAC00834927 /* IPChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPChecker.m; sourceTree = "<group>"; };
+		75E706D31DCC0F4400D0668D /* BeWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E706D61DCC0F4400D0668D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E706DB1DCC0F4400D0668D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E706DD1DCC0F4400D0668D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E706E01DCC0F4400D0668D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E706E21DCC0F4400D0668D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E706E71DCC0F4400D0668D /* BeWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E706EB1DCC0F4400D0668D /* BeWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWiseTests.swift; sourceTree = "<group>"; };
+		75E706ED1DCC0F4400D0668D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E706F21DCC0F4400D0668D /* BeWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E706F61DCC0F4400D0668D /* BeWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWiseUITests.swift; sourceTree = "<group>"; };
+		75E706F81DCC0F4400D0668D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E707041DCC111100D0668D /* tour_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tour_video.mp4; path = Images/tour_video.mp4; sourceTree = SOURCE_ROOT; };
+		7B5158C7C2D738B21186CAC1 /* Pods-BeWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWise.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeWise/Pods-BeWise.release.xcconfig"; sourceTree = "<group>"; };
+		B9AFC93DB043E5EC2AFF8D71 /* Pods-BeWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWise/Pods-BeWise.debug.xcconfig"; sourceTree = "<group>"; };
+		E836507247E402558C0FFF0B /* Pods_BeWiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeWiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B115AE2401389F862CB9FA /* Pods-BeWiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeWiseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F49BB5CF927CE4E39D671D8F /* Pods_BeWiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeWiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E706D01DCC0F4400D0668D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4529080A77B1FE09B6E6CB /* Pods_BeWise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706E41DCC0F4400D0668D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EC8771ABCF92F3470939E1 /* Pods_BeWiseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706EF1DCC0F4400D0668D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F064E1DC4BDA39AE467BE814 /* Pods_BeWiseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C50270F4AE8B5B75CB81641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BC18E84DADB12FBE5B2229 /* Pods_BeWise.framework */,
+				F49BB5CF927CE4E39D671D8F /* Pods_BeWiseTests.framework */,
+				E836507247E402558C0FFF0B /* Pods_BeWiseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45C5CD12FB57A8D8F893A455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9AFC93DB043E5EC2AFF8D71 /* Pods-BeWise.debug.xcconfig */,
+				7B5158C7C2D738B21186CAC1 /* Pods-BeWise.release.xcconfig */,
+				124578C31441CB0679383516 /* Pods-BeWiseTests.debug.xcconfig */,
+				056A4998067ACD35B0F3AE5B /* Pods-BeWiseTests.release.xcconfig */,
+				E9B115AE2401389F862CB9FA /* Pods-BeWiseUITests.debug.xcconfig */,
+				1636ED99A10D0EFB93464D02 /* Pods-BeWiseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75E706CA1DCC0F4400D0668D = {
+			isa = PBXGroup;
+			children = (
+				75E706D51DCC0F4400D0668D /* BeWise */,
+				75E706EA1DCC0F4400D0668D /* BeWiseTests */,
+				75E706F51DCC0F4400D0668D /* BeWiseUITests */,
+				75E706D41DCC0F4400D0668D /* Products */,
+				45C5CD12FB57A8D8F893A455 /* Pods */,
+				1C50270F4AE8B5B75CB81641 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75E706D41DCC0F4400D0668D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E706D31DCC0F4400D0668D /* BeWise.app */,
+				75E706E71DCC0F4400D0668D /* BeWiseTests.xctest */,
+				75E706F21DCC0F4400D0668D /* BeWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E706D51DCC0F4400D0668D /* BeWise */ = {
+			isa = PBXGroup;
+			children = (
+				75E42D4A1EFB0D1F00834927 /* H1A.png */,
+				75E42D4B1EFB0D1F00834927 /* H2A.png */,
+				75E42D4C1EFB0D1F00834927 /* H3A.png */,
+				75E42D4D1EFB0D1F00834927 /* H4A.png */,
+				75E42D4E1EFB0D1F00834927 /* H5A.png */,
+				75B14A801DD56A620048B055 /* a.jpg */,
+				75B14A811DD56A620048B055 /* b.jpg */,
+				75B14A821DD56A620048B055 /* c.jpg */,
+				75B14A831DD56A620048B055 /* d.jpg */,
+				75B14A841DD56A620048B055 /* e.jpg */,
+				75B14A851DD56A620048B055 /* f.jpg */,
+				750522F61DD29E8E002EBF13 /* newhub1.jpg */,
+				750522F71DD29E8E002EBF13 /* newhub2.jpg */,
+				750522F81DD29E8E002EBF13 /* newhub3.jpg */,
+				750522F91DD29E8E002EBF13 /* newhub4.jpg */,
+				750522FA1DD29E8E002EBF13 /* newhub5.jpg */,
+				750522FB1DD29E8E002EBF13 /* newhub6.jpg */,
+				750522FC1DD29E8E002EBF13 /* newhub7.jpg */,
+				750522F51DD28DF9002EBF13 /* BeWise.entitlements */,
+				75CB2EF31DCE7CC90057E9BE /* GoogleService-Info.plist */,
+				75A654CC1DCDA2920082DC13 /* cardview_image_top.png */,
+				75A654CD1DCDA2920082DC13 /* giphy.gif */,
+				75A654CE1DCDA2920082DC13 /* hub.png */,
+				75A654CF1DCDA2920082DC13 /* logobw.png */,
+				75A15A9F1DCCF8B800B5A1AF /* BeWise-Bridging-Header.h */,
+				75E706D61DCC0F4400D0668D /* AppDelegate.swift */,
+				75E706DA1DCC0F4400D0668D /* Main.storyboard */,
+				75E706DD1DCC0F4400D0668D /* Assets.xcassets */,
+				75E706DF1DCC0F4400D0668D /* LaunchScreen.storyboard */,
+				75E706E21DCC0F4400D0668D /* Info.plist */,
+				750B525D1DCC437D00CBB039 /* logobwblue.png */,
+				75E707041DCC111100D0668D /* tour_video.mp4 */,
+				75A15A9D1DCCF2EF00B5A1AF /* ConfigureHubPageViewController.swift */,
+				75A15AA01DCD72FE00B5A1AF /* MainViewController.swift */,
+				75CB2EF11DCE65090057E9BE /* ChooseHubViewController.swift */,
+				750523041DD40389002EBF13 /* WifiDetectedViewController.swift */,
+				750523061DD4119D002EBF13 /* NoWifiDetectedViewController.swift */,
+				759BB97C1DD42EAC00D5DC1F /* SearchHubViewController.swift */,
+				757CD3611DD4EE0100A5E74E /* SoketIOConfigureHubViewController.swift */,
+				75B14A7A1DD559290048B055 /* PlacesViewController.swift */,
+				75B14A7E1DD55FDC0048B055 /* PlaceCollectionViewCell.swift */,
+				75B14A8C1DD56DD70048B055 /* etensionUIimage.swift */,
+				756564391DD778FE002995FA /* WebViewViewController.swift */,
+				75E42D541EFB1C2600834927 /* Places2ViewController.swift */,
+				75E42D561EFB2A6600834927 /* Place2CollectionViewCell.swift */,
+				75E42D591EFB3B8900834927 /* IPChecker.h */,
+				75E42D5A1EFB3BAC00834927 /* IPChecker.m */,
+			);
+			path = BeWise;
+			sourceTree = "<group>";
+		};
+		75E706EA1DCC0F4400D0668D /* BeWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				75CB2EEF1DCE524B0057E9BE /* SignUpViewController.swift */,
+				75E706EB1DCC0F4400D0668D /* BeWiseTests.swift */,
+				75E706ED1DCC0F4400D0668D /* Info.plist */,
+			);
+			path = BeWiseTests;
+			sourceTree = "<group>";
+		};
+		75E706F51DCC0F4400D0668D /* BeWiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75E706F61DCC0F4400D0668D /* BeWiseUITests.swift */,
+				75E706F81DCC0F4400D0668D /* Info.plist */,
+			);
+			path = BeWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E706D21DCC0F4400D0668D /* BeWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E706FB1DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWise" */;
+			buildPhases = (
+				B1B7ED2F1549A3CEB9C04E81 /* [CP] Check Pods Manifest.lock */,
+				75E706CF1DCC0F4400D0668D /* Sources */,
+				75E706D01DCC0F4400D0668D /* Frameworks */,
+				75E706D11DCC0F4400D0668D /* Resources */,
+				579DE74441566C9D85BE25D2 /* [CP] Embed Pods Frameworks */,
+				D20351F8B23C49CE0A3777DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeWise;
+			productName = BeWise;
+			productReference = 75E706D31DCC0F4400D0668D /* BeWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E706E61DCC0F4400D0668D /* BeWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E706FE1DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWiseTests" */;
+			buildPhases = (
+				197A0522CBD4B4FD628D501D /* [CP] Check Pods Manifest.lock */,
+				75E706E31DCC0F4400D0668D /* Sources */,
+				75E706E41DCC0F4400D0668D /* Frameworks */,
+				75E706E51DCC0F4400D0668D /* Resources */,
+				20330BB8164C58126B996B4C /* [CP] Embed Pods Frameworks */,
+				4B113F18BF06275F6AD00260 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E706E91DCC0F4400D0668D /* PBXTargetDependency */,
+			);
+			name = BeWiseTests;
+			productName = BeWiseTests;
+			productReference = 75E706E71DCC0F4400D0668D /* BeWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75E706F11DCC0F4400D0668D /* BeWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E707011DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWiseUITests" */;
+			buildPhases = (
+				F040F6DC60BC3D6CFB349DAB /* [CP] Check Pods Manifest.lock */,
+				75E706EE1DCC0F4400D0668D /* Sources */,
+				75E706EF1DCC0F4400D0668D /* Frameworks */,
+				75E706F01DCC0F4400D0668D /* Resources */,
+				E287F24554E4E3D179782F65 /* [CP] Embed Pods Frameworks */,
+				D5E2BE8922067CD855908488 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E706F41DCC0F4400D0668D /* PBXTargetDependency */,
+			);
+			name = BeWiseUITests;
+			productName = BeWiseUITests;
+			productReference = 75E706F21DCC0F4400D0668D /* BeWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E706CB1DCC0F4400D0668D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BEWISE;
+				TargetAttributes = {
+					75E706D21DCC0F4400D0668D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2WJTZ6G6Z5;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					75E706E61DCC0F4400D0668D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75E706D21DCC0F4400D0668D;
+					};
+					75E706F11DCC0F4400D0668D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75E706D21DCC0F4400D0668D;
+					};
+				};
+			};
+			buildConfigurationList = 75E706CE1DCC0F4400D0668D /* Build configuration list for PBXProject "BeWise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E706CA1DCC0F4400D0668D;
+			productRefGroup = 75E706D41DCC0F4400D0668D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E706D21DCC0F4400D0668D /* BeWise */,
+				75E706E61DCC0F4400D0668D /* BeWiseTests */,
+				75E706F11DCC0F4400D0668D /* BeWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E706D11DCC0F4400D0668D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B14A8B1DD56A620048B055 /* f.jpg in Resources */,
+				75E42D511EFB0D1F00834927 /* H3A.png in Resources */,
+				75E706E11DCC0F4400D0668D /* LaunchScreen.storyboard in Resources */,
+				75B14A861DD56A620048B055 /* a.jpg in Resources */,
+				75B14A881DD56A620048B055 /* c.jpg in Resources */,
+				75A654D21DCDA2920082DC13 /* hub.png in Resources */,
+				750523001DD29E8E002EBF13 /* newhub4.jpg in Resources */,
+				75CB2EF41DCE7CC90057E9BE /* GoogleService-Info.plist in Resources */,
+				75E42D4F1EFB0D1F00834927 /* H1A.png in Resources */,
+				75E42D521EFB0D1F00834927 /* H4A.png in Resources */,
+				75E706DE1DCC0F4400D0668D /* Assets.xcassets in Resources */,
+				750522FE1DD29E8E002EBF13 /* newhub2.jpg in Resources */,
+				75E706DC1DCC0F4400D0668D /* Main.storyboard in Resources */,
+				750B525E1DCC437D00CBB039 /* logobwblue.png in Resources */,
+				750523011DD29E8E002EBF13 /* newhub5.jpg in Resources */,
+				75E42D531EFB0D1F00834927 /* H5A.png in Resources */,
+				75A654D11DCDA2920082DC13 /* giphy.gif in Resources */,
+				75B14A891DD56A620048B055 /* d.jpg in Resources */,
+				750523031DD29E8E002EBF13 /* newhub7.jpg in Resources */,
+				75B14A871DD56A620048B055 /* b.jpg in Resources */,
+				75B14A8A1DD56A620048B055 /* e.jpg in Resources */,
+				75A654D01DCDA2920082DC13 /* cardview_image_top.png in Resources */,
+				750522FD1DD29E8E002EBF13 /* newhub1.jpg in Resources */,
+				750522FF1DD29E8E002EBF13 /* newhub3.jpg in Resources */,
+				75E42D501EFB0D1F00834927 /* H2A.png in Resources */,
+				750523021DD29E8E002EBF13 /* newhub6.jpg in Resources */,
+				75A654D31DCDA2920082DC13 /* logobw.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706E51DCC0F4400D0668D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706F01DCC0F4400D0668D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		197A0522CBD4B4FD628D501D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20330BB8164C58126B996B4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B113F18BF06275F6AD00260 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579DE74441566C9D85BE25D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWise/Pods-BeWise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B7ED2F1549A3CEB9C04E81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D20351F8B23C49CE0A3777DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWise/Pods-BeWise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E2BE8922067CD855908488 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E287F24554E4E3D179782F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F040F6DC60BC3D6CFB349DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E706CF1DCC0F4400D0668D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB2EF21DCE65090057E9BE /* ChooseHubViewController.swift in Sources */,
+				75E706D71DCC0F4400D0668D /* AppDelegate.swift in Sources */,
+				75B14A7B1DD559290048B055 /* PlacesViewController.swift in Sources */,
+				75A15A9E1DCCF2EF00B5A1AF /* ConfigureHubPageViewController.swift in Sources */,
+				75E42D5B1EFB3BAC00834927 /* IPChecker.m in Sources */,
+				75CB2EF01DCE524B0057E9BE /* SignUpViewController.swift in Sources */,
+				757CD3621DD4EE0200A5E74E /* SoketIOConfigureHubViewController.swift in Sources */,
+				759BB97D1DD42EAC00D5DC1F /* SearchHubViewController.swift in Sources */,
+				75B14A7F1DD55FDC0048B055 /* PlaceCollectionViewCell.swift in Sources */,
+				7565643A1DD778FE002995FA /* WebViewViewController.swift in Sources */,
+				75E42D551EFB1C2600834927 /* Places2ViewController.swift in Sources */,
+				750523071DD4119D002EBF13 /* NoWifiDetectedViewController.swift in Sources */,
+				750523051DD40389002EBF13 /* WifiDetectedViewController.swift in Sources */,
+				75B14A8D1DD56DD70048B055 /* etensionUIimage.swift in Sources */,
+				75A15AA11DCD72FE00B5A1AF /* MainViewController.swift in Sources */,
+				75E42D571EFB2A6600834927 /* Place2CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706E31DCC0F4400D0668D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E706EC1DCC0F4400D0668D /* BeWiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E706EE1DCC0F4400D0668D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E706F71DCC0F4400D0668D /* BeWiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E706E91DCC0F4400D0668D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E706D21DCC0F4400D0668D /* BeWise */;
+			targetProxy = 75E706E81DCC0F4400D0668D /* PBXContainerItemProxy */;
+		};
+		75E706F41DCC0F4400D0668D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E706D21DCC0F4400D0668D /* BeWise */;
+			targetProxy = 75E706F31DCC0F4400D0668D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E706DA1DCC0F4400D0668D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E706DB1DCC0F4400D0668D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E706DF1DCC0F4400D0668D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E706E01DCC0F4400D0668D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E706F91DCC0F4400D0668D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75E706FA1DCC0F4400D0668D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E706FC1DCC0F4400D0668D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AFC93DB043E5EC2AFF8D71 /* Pods-BeWise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BeWise/BeWise.entitlements;
+				DEVELOPMENT_TEAM = 2WJTZ6G6Z5;
+				INFOPLIST_FILE = BeWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeWise/BeWise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75E706FD1DCC0F4400D0668D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5158C7C2D738B21186CAC1 /* Pods-BeWise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BeWise/BeWise.entitlements;
+				DEVELOPMENT_TEAM = 2WJTZ6G6Z5;
+				INFOPLIST_FILE = BeWise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BeWise/BeWise-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		75E706FF1DCC0F4400D0668D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124578C31441CB0679383516 /* Pods-BeWiseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeWiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWise.app/BeWise";
+			};
+			name = Debug;
+		};
+		75E707001DCC0F4400D0668D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056A4998067ACD35B0F3AE5B /* Pods-BeWiseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeWiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWise.app/BeWise";
+			};
+			name = Release;
+		};
+		75E707021DCC0F4400D0668D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B115AE2401389F862CB9FA /* Pods-BeWiseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BeWiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeWise;
+			};
+			name = Debug;
+		};
+		75E707031DCC0F4400D0668D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1636ED99A10D0EFB93464D02 /* Pods-BeWiseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BeWiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicoft.BeWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E706CE1DCC0F4400D0668D /* Build configuration list for PBXProject "BeWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E706F91DCC0F4400D0668D /* Debug */,
+				75E706FA1DCC0F4400D0668D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E706FB1DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E706FC1DCC0F4400D0668D /* Debug */,
+				75E706FD1DCC0F4400D0668D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E706FE1DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E706FF1DCC0F4400D0668D /* Debug */,
+				75E707001DCC0F4400D0668D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E707011DCC0F4400D0668D /* Build configuration list for PBXNativeTarget "BeWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E707021DCC0F4400D0668D /* Debug */,
+				75E707031DCC0F4400D0668D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E706CB1DCC0F4400D0668D /* Project object */;
+}

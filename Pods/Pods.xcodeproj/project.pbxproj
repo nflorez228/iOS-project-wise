@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062613301CDDDD8C346B1ACB96E24A3E /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4637586C6D0151F95296A9B1DDF0DA /* WebSocket.swift */; };
+		0B33756196022F29935294DFFF7E87C1 /* Pods-BeWiseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF0183920A3C82E90138D7277324BD8 /* Pods-BeWiseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A9FBF2388B51C553A02C742B411E2C /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1125EA40168FA92DA325191B73EA7F5F /* SocketEventHandler.swift */; };
+		1D7D437819DD4E4C8E98B775A09E6A35 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765215F0DD27CECA9EC8650C5C01605 /* SocketEnginePacketType.swift */; };
+		25B59D3432598850B721BFEC8588CB74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A75233851A106334DE25C0C6C7D1F5B /* Pods-BeWise-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5E557F5687D559FA1C79699D17EE9B /* Pods-BeWise-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DFA5502D8B0C9F025A8F23440EA7DDA /* Pods-BeWiseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6837D95C173D9077EA74D1E4D73BF5F /* Pods-BeWiseTests-dummy.m */; };
+		30C8139AD0AF6A5617BA7A859018492B /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2367B6ED70C65C325940FD4D54DF3134 /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35E60AD5CE99F4D0EC1BA7B11123ED0B /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE754666A37112C3EDA7B5487D06BD /* SocketLogger.swift */; };
+		36D20BE8E8FBF69C018C0A0E1C4686C1 /* Pods-BeWise-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC28B08FCB9590769F5277FBF9309CC /* Pods-BeWise-dummy.m */; };
+		389827816E7686A2B6976B9CD20FD34C /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F608E68D62330FFE61AC37DCCA7DE3 /* SocketEngineClient.swift */; };
+		3E10839BBE9A5A12C43084E12E30048C /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F0D20075FFB88B6434DC89D47CECB /* SocketIOClient.swift */; };
+		42C70482CE6F9885AB84ED05F1C82615 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BA9FD850BA5D9DA53FD833B6AC8CDE /* SSLSecurity.swift */; };
+		50598A49DBB4C7DF9F555AB5ED51673F /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC207E4B5559C0C5DAC891D5185E3565 /* SocketExtensions.swift */; };
+		50D992817F2881F590997DCB5FE13EA0 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B60CAF94A24DECA51EA86183F3C35C /* SocketAckEmitter.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4146E086437CACC534FA3CAF8ECD2A97 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598E4024A4945328C336BEDD631D8AAC /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3F2586BAAE02A46ECFACEAD41E5C3 /* SocketAnyEvent.swift */; };
+		5D10820CF7DC0AA37EB418BF44EE1559 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251B031616AEEB858C8A66615DAF476 /* SocketEngine.swift */; };
+		66EBC0A51DDD1D0005F0E148B56ECB74 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910D816B216316406F156D70EFFEEA8 /* SocketIOClientConfiguration.swift */; };
+		6741565AF67280DC5A31E27DE925A068 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C8E9B332714EB1573FAA3CAA711F7 /* SocketClientManager.swift */; };
+		6D7E9D6209BBC04C39566974B5F9F7F1 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF99AB5ECFF8EFFB03EDDB141730574 /* SocketEnginePollable.swift */; };
+		6FAC1A68E66587AC5CBEA4219E7A11AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71CF74682BBC4D911862A2CFD1D1D65D /* Pods-BeWiseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3509DC014DE4BF755CE4504FC2518CE0 /* Pods-BeWiseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8145950020064D6C35EDB6FE0E9B6D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB62FF2BF0CB16B7E5175B29942957C /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864372D138250C14D146B4D575FB28CE /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096331A9B5B322AC794FC7B22A209BF /* SocketPacket.swift */; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A15EC2D2A269190330B515D843DDD7B7 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546BD53EDE25C43B1A865475EAB7C5C7 /* SocketIOClientSpec.swift */; };
+		AE743B287496025322C9DD35EC7011AF /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FAF4C5F2BDC4EFAE2C44A19F9A528E /* SocketEngineWebsocket.swift */; };
+		AFF2EF4B13CC4D0A90FBD4E2DA65F12B /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6425686B84FB0887AD3D6D948DAF356 /* SocketParsable.swift */; };
+		B2FA98997D18E0B2FDFC5DFCFB7C51AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B904C43288E63D71D9261EB0693CD33F /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D529D489046194CF5E81C7F0C85A84 /* SocketEngineSpec.swift */; };
+		C455E5D4BEC87250E8888CC7296E8567 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7118FD740F447240E72721C33C2DF8EF /* SocketAckManager.swift */; };
+		C897FF2C650ECC86B04D0944BDCAEBAE /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5B26E633924057C732CA017BDA05AA /* SocketIOClientStatus.swift */; };
+		CD30265DCD4DD9A562779AA6348074FE /* Pods-BeWiseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9574A42EBB3FA8F2D0B758ACBF4A1593 /* Pods-BeWiseUITests-dummy.m */; };
+		D957484C982CBCA1BB3930C7A2490246 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E96FEF4F5AFAE96F2B0B9FCE660A57 /* SocketIOClientOption.swift */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = EC8933B2CE883AFC15150E9FE4E23871 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E251BC9666B9AB3EF771F36166A9F00A /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9C712CAC7765DA09D4DA6D6396B274 /* Socket.IO-Client-Swift-dummy.m */; };
+		ECB4620B8BB8D825B770A1B2042BD362 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC1B08E45050D8EEA214CD6DD9AACCF /* SocketTypes.swift */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6CD020493511E510184B83FDC6D487 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 297E0424DCE3C553D1D4817599412318 /* GoogleToolboxForMac-dummy.m */; };
+		FDDD447457D9B1056839C0A376E1D9CB /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC8F2DC341F8E05916D949C4BACEED8 /* SocketStringReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EA5823DDB0157BD50CEBDFA3E25E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90222974F9985A20CE45EA54B85A02ED;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		84C5880481EF5C548766E8816DCD9DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00334C9EC60BFBC59B5B66FA2FAABCA2 /* Pods-BeWise-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWise-resources.sh"; sourceTree = "<group>"; };
+		0765215F0DD27CECA9EC8650C5C01605 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		0BD957C614AB63A7EF0C5338B202573B /* Pods-BeWise-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWise-frameworks.sh"; sourceTree = "<group>"; };
+		0D318BE96019EF6BCEA0FA03EF6CEFA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E572C26B8AC7E1F38B05C24E20EF18D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1096331A9B5B322AC794FC7B22A209BF /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketPacket.swift; sourceTree = "<group>"; };
+		1125EA40168FA92DA325191B73EA7F5F /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketEventHandler.swift; sourceTree = "<group>"; };
+		112C8E9B332714EB1573FAA3CAA711F7 /* SocketClientManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketClientManager.swift; path = Source/SocketClientManager.swift; sourceTree = "<group>"; };
+		15D29D7D9448F748A09A06C61D24E60F /* Pods-BeWiseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BeWiseTests.modulemap"; sourceTree = "<group>"; };
+		1AF0183920A3C82E90138D7277324BD8 /* Pods-BeWiseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeWiseUITests-umbrella.h"; sourceTree = "<group>"; };
+		1F5829440680C6ED7BE99AB5AB0F8087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2367B6ED70C65C325940FD4D54DF3134 /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		2970FC266F2FD5FC288F14400D4B42EC /* Pods-BeWiseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWiseTests-resources.sh"; sourceTree = "<group>"; };
+		297E0424DCE3C553D1D4817599412318 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		3509DC014DE4BF755CE4504FC2518CE0 /* Pods-BeWiseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeWiseTests-umbrella.h"; sourceTree = "<group>"; };
+		38E96FEF4F5AFAE96F2B0B9FCE660A57 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		3AF0A014236B099A6DA445173D6DCE6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC8F2DC341F8E05916D949C4BACEED8 /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketStringReader.swift; sourceTree = "<group>"; };
+		3DD8572352278D7C8B6800DA0B056807 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		40B60CAF94A24DECA51EA86183F3C35C /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		410DDC025EBF9BC72284344FAB5E3FCA /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		4146E086437CACC534FA3CAF8ECD2A97 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		43856CA2BA0FC7C4B5E84BFFCE96EC6E /* Pods-BeWiseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BeWiseUITests.modulemap"; sourceTree = "<group>"; };
+		4DB04EC6CC0315543DBF070B4B6FE9FB /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		50C50E450A6BBD8FC9ECA84216D2EAAF /* Pods-BeWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWise.release.xcconfig"; sourceTree = "<group>"; };
+		546BD53EDE25C43B1A865475EAB7C5C7 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		572A33700FC21E8630E48CD2496637BB /* Pods-BeWiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58BF846B91C46C5B12E480D436C71BC9 /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		5910D816B216316406F156D70EFFEEA8 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		5AC1B08E45050D8EEA214CD6DD9AACCF /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketTypes.swift; sourceTree = "<group>"; };
+		5CC28B08FCB9590769F5277FBF9309CC /* Pods-BeWise-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeWise-dummy.m"; sourceTree = "<group>"; };
+		5D1F486A1C29BDB3DD9AD269CB6BDB39 /* Pods-BeWiseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeWiseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69BA9FD850BA5D9DA53FD833B6AC8CDE /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SSLSecurity.swift; sourceTree = "<group>"; };
+		7118FD740F447240E72721C33C2DF8EF /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketAckManager.swift; sourceTree = "<group>"; };
+		77F31EA00AE1950F47F4DED1808FF059 /* Pods-BeWiseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWiseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		78E7CBA952DA11B8FF2CC2F73E18D5AE /* Pods_BeWiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeWiseUITests.framework; path = "Pods-BeWiseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF979669CA9130DD68F6C4BBD9868B /* Pods-BeWiseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeWiseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83E1DD23DF8ADA6B70DFB9499FF7FFD7 /* Pods-BeWise.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BeWise.modulemap"; sourceTree = "<group>"; };
+		84B3F2586BAAE02A46ECFACEAD41E5C3 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		88FD436A9E5E3BEBA21E7B88C970F545 /* Pods-BeWiseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeWiseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89D874D5827DE4A50769E07033E8AE9E /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		8B6CD020493511E510184B83FDC6D487 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		8C4637586C6D0151F95296A9B1DDF0DA /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Source/WebSocket.swift; sourceTree = "<group>"; };
+		8D9C712CAC7765DA09D4DA6D6396B274 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DE754666A37112C3EDA7B5487D06BD /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketLogger.swift; sourceTree = "<group>"; };
+		9574A42EBB3FA8F2D0B758ACBF4A1593 /* Pods-BeWiseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeWiseUITests-dummy.m"; sourceTree = "<group>"; };
+		995237D22DCD8894D6684DFB26D17A01 /* Pods-BeWiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DF99AB5ECFF8EFFB03EDDB141730574 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		9E5E557F5687D559FA1C79699D17EE9B /* Pods-BeWise-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BeWise-umbrella.h"; sourceTree = "<group>"; };
+		A08D60E6534AABC77E9FBC11D70E4A99 /* Pods-BeWiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A251B031616AEEB858C8A66615DAF476 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketEngine.swift; sourceTree = "<group>"; };
+		A6837D95C173D9077EA74D1E4D73BF5F /* Pods-BeWiseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BeWiseTests-dummy.m"; sourceTree = "<group>"; };
+		AAE034A8943C239C8130550501CC8E07 /* Pods-BeWiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD874F168D70920593471960A0D20BB9 /* Pods-BeWiseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeWiseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADA00B11F4C3320E3424CEBE6DBE1861 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21F0D20075FFB88B6434DC89D47CECB /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIOClient.swift; sourceTree = "<group>"; };
+		B59C258969825A473DCBBC51A85D1B6D /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		BE5B26E633924057C732CA017BDA05AA /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientStatus.swift; path = Source/SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		C0FAF4C5F2BDC4EFAE2C44A19F9A528E /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		CCB62FF2BF0CB16B7E5175B29942957C /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		CDAA8960FC0F33764C0DB1F8A1083DF2 /* Pods_BeWiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeWiseTests.framework; path = "Pods-BeWiseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A29C277D522ACEACB16A155DC6D929 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		DD98F6ABC2CF0F45DF6C2D731BB464E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C3B3FAF942B65D861DC1BD027A2DF /* Pods_BeWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BeWise.framework; path = "Pods-BeWise.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32FABF001D1243D1E9758ED82F2D97F /* Pods-BeWise-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BeWise-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5D529D489046194CF5E81C7F0C85A84 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		E6425686B84FB0887AD3D6D948DAF356 /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketParsable.swift; sourceTree = "<group>"; };
+		EAF3911E687ED0D035AE53DB6544135F /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8933B2CE883AFC15150E9FE4E23871 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		EFE5BF99CFA8EF91D500C61C4A04AD82 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		EFFAC13E7CFFE776266B869DF6F23EE1 /* Pods-BeWiseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWiseUITests-resources.sh"; sourceTree = "<group>"; };
+		F611B9E2FB0DDD05A714CB89C85A8554 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		F65B6C8620C37042775C69FD0C4B6E48 /* Pods-BeWiseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BeWiseTests-frameworks.sh"; sourceTree = "<group>"; };
+		F6F608E68D62330FFE61AC37DCCA7DE3 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketEngineClient.swift; sourceTree = "<group>"; };
+		F891A2693E3A257CE363642A116E25B4 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		FC207E4B5559C0C5DAC891D5185E3565 /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketExtensions.swift; sourceTree = "<group>"; };
+		FEF8ACE8D9C84AAE6DDB58DE4CA8C95B /* Pods-BeWise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BeWise.debug.xcconfig"; sourceTree = "<group>"; };
+		FF3630DF9D787D2001DCFC4D9B3A1252 /* Pods-BeWise-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BeWise-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7B18FD518EF19ADD556FF7B33A2D23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAC1A68E66587AC5CBEA4219E7A11AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472B3C581617C91951B792CA312CB990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA98997D18E0B2FDFC5DFCFB7C51AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C803C839213463E08F9A67DB0A4F09A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B59D3432598850B721BFEC8588CB74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92154730CB21BC790ABB979CD16682C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8145950020064D6C35EDB6FE0E9B6D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0666CA3622D127DD08133DD78313187B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A29C277D522ACEACB16A155DC6D929 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC54EAB5EBFCECF62639F503DEAC273 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE78916B343187E3E0BD55CA8C3163 /* Defines */,
+				1983E6AC5ABBF27F17EE47ACA22854EA /* NSData+zlib */,
+				F2425BE60C4E69F63CBC817104A70972 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		0E8DD46605EAD902E18C584DBA9430B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3DD8572352278D7C8B6800DA0B056807 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		10F7A8E14DE4BEF1B70FDD0F3F67C165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF3911E687ED0D035AE53DB6544135F /* GoogleToolboxForMac.framework */,
+				DE8C3B3FAF942B65D861DC1BD027A2DF /* Pods_BeWise.framework */,
+				CDAA8960FC0F33764C0DB1F8A1083DF2 /* Pods_BeWiseTests.framework */,
+				78E7CBA952DA11B8FF2CC2F73E18D5AE /* Pods_BeWiseUITests.framework */,
+				ADA00B11F4C3320E3424CEBE6DBE1861 /* SocketIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1983E6AC5ABBF27F17EE47ACA22854EA /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				EC8933B2CE883AFC15150E9FE4E23871 /* GTMNSData+zlib.h */,
+				8B6CD020493511E510184B83FDC6D487 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		3EF462CFDAD90CBFA154735970789F14 /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				40B60CAF94A24DECA51EA86183F3C35C /* SocketAckEmitter.swift */,
+				7118FD740F447240E72721C33C2DF8EF /* SocketAckManager.swift */,
+				84B3F2586BAAE02A46ECFACEAD41E5C3 /* SocketAnyEvent.swift */,
+				112C8E9B332714EB1573FAA3CAA711F7 /* SocketClientManager.swift */,
+				A251B031616AEEB858C8A66615DAF476 /* SocketEngine.swift */,
+				F6F608E68D62330FFE61AC37DCCA7DE3 /* SocketEngineClient.swift */,
+				0765215F0DD27CECA9EC8650C5C01605 /* SocketEnginePacketType.swift */,
+				9DF99AB5ECFF8EFFB03EDDB141730574 /* SocketEnginePollable.swift */,
+				E5D529D489046194CF5E81C7F0C85A84 /* SocketEngineSpec.swift */,
+				C0FAF4C5F2BDC4EFAE2C44A19F9A528E /* SocketEngineWebsocket.swift */,
+				1125EA40168FA92DA325191B73EA7F5F /* SocketEventHandler.swift */,
+				FC207E4B5559C0C5DAC891D5185E3565 /* SocketExtensions.swift */,
+				B21F0D20075FFB88B6434DC89D47CECB /* SocketIOClient.swift */,
+				5910D816B216316406F156D70EFFEEA8 /* SocketIOClientConfiguration.swift */,
+				38E96FEF4F5AFAE96F2B0B9FCE660A57 /* SocketIOClientOption.swift */,
+				546BD53EDE25C43B1A865475EAB7C5C7 /* SocketIOClientSpec.swift */,
+				BE5B26E633924057C732CA017BDA05AA /* SocketIOClientStatus.swift */,
+				94DE754666A37112C3EDA7B5487D06BD /* SocketLogger.swift */,
+				1096331A9B5B322AC794FC7B22A209BF /* SocketPacket.swift */,
+				E6425686B84FB0887AD3D6D948DAF356 /* SocketParsable.swift */,
+				3DC8F2DC341F8E05916D949C4BACEED8 /* SocketStringReader.swift */,
+				5AC1B08E45050D8EEA214CD6DD9AACCF /* SocketTypes.swift */,
+				69BA9FD850BA5D9DA53FD833B6AC8CDE /* SSLSecurity.swift */,
+				8C4637586C6D0151F95296A9B1DDF0DA /* WebSocket.swift */,
+				D72A639F358BF727F5737931B15A494B /* Support Files */,
+			);
+			name = "Socket.IO-Client-Swift";
+			path = "Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		41ABA99BD72254F2795F967BAA2E0999 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0666CA3622D127DD08133DD78313187B /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		4476025CDC1EF7ECA207D2990E389E34 /* Pods-BeWise */ = {
+			isa = PBXGroup;
+			children = (
+				DD98F6ABC2CF0F45DF6C2D731BB464E2 /* Info.plist */,
+				83E1DD23DF8ADA6B70DFB9499FF7FFD7 /* Pods-BeWise.modulemap */,
+				E32FABF001D1243D1E9758ED82F2D97F /* Pods-BeWise-acknowledgements.markdown */,
+				FF3630DF9D787D2001DCFC4D9B3A1252 /* Pods-BeWise-acknowledgements.plist */,
+				5CC28B08FCB9590769F5277FBF9309CC /* Pods-BeWise-dummy.m */,
+				0BD957C614AB63A7EF0C5338B202573B /* Pods-BeWise-frameworks.sh */,
+				00334C9EC60BFBC59B5B66FA2FAABCA2 /* Pods-BeWise-resources.sh */,
+				9E5E557F5687D559FA1C79699D17EE9B /* Pods-BeWise-umbrella.h */,
+				FEF8ACE8D9C84AAE6DDB58DE4CA8C95B /* Pods-BeWise.debug.xcconfig */,
+				50C50E450A6BBD8FC9ECA84216D2EAAF /* Pods-BeWise.release.xcconfig */,
+			);
+			name = "Pods-BeWise";
+			path = "Target Support Files/Pods-BeWise";
+			sourceTree = "<group>";
+		};
+		4A64E948E498B284AF543E7E690A0F35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4476025CDC1EF7ECA207D2990E389E34 /* Pods-BeWise */,
+				671F4F202A6C56E50540C171BC730878 /* Pods-BeWiseTests */,
+				9B2EA9CBA78A69E2E03BB3E82060958B /* Pods-BeWiseUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		671F4F202A6C56E50540C171BC730878 /* Pods-BeWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D318BE96019EF6BCEA0FA03EF6CEFA5 /* Info.plist */,
+				15D29D7D9448F748A09A06C61D24E60F /* Pods-BeWiseTests.modulemap */,
+				79FF979669CA9130DD68F6C4BBD9868B /* Pods-BeWiseTests-acknowledgements.markdown */,
+				AD874F168D70920593471960A0D20BB9 /* Pods-BeWiseTests-acknowledgements.plist */,
+				A6837D95C173D9077EA74D1E4D73BF5F /* Pods-BeWiseTests-dummy.m */,
+				F65B6C8620C37042775C69FD0C4B6E48 /* Pods-BeWiseTests-frameworks.sh */,
+				2970FC266F2FD5FC288F14400D4B42EC /* Pods-BeWiseTests-resources.sh */,
+				3509DC014DE4BF755CE4504FC2518CE0 /* Pods-BeWiseTests-umbrella.h */,
+				572A33700FC21E8630E48CD2496637BB /* Pods-BeWiseTests.debug.xcconfig */,
+				AAE034A8943C239C8130550501CC8E07 /* Pods-BeWiseTests.release.xcconfig */,
+			);
+			name = "Pods-BeWiseTests";
+			path = "Target Support Files/Pods-BeWiseTests";
+			sourceTree = "<group>";
+		};
+		6BA57FA5A646A410C3C545CA99D06E35 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DD46605EAD902E18C584DBA9430B5 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		6DFE78916B343187E3E0BD55CA8C3163 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				4146E086437CACC534FA3CAF8ECD2A97 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A1D54B1A9688E07532BEAFF98D155507 /* Pods */,
+				10F7A8E14DE4BEF1B70FDD0F3F67C165 /* Products */,
+				4A64E948E498B284AF543E7E690A0F35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9056CF623A3CC2CCDE0797D0D51A6F32 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				C8D470445DAB160DB1015109B1B94DB6 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		9B2EA9CBA78A69E2E03BB3E82060958B /* Pods-BeWiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AF0A014236B099A6DA445173D6DCE6D /* Info.plist */,
+				43856CA2BA0FC7C4B5E84BFFCE96EC6E /* Pods-BeWiseUITests.modulemap */,
+				88FD436A9E5E3BEBA21E7B88C970F545 /* Pods-BeWiseUITests-acknowledgements.markdown */,
+				5D1F486A1C29BDB3DD9AD269CB6BDB39 /* Pods-BeWiseUITests-acknowledgements.plist */,
+				9574A42EBB3FA8F2D0B758ACBF4A1593 /* Pods-BeWiseUITests-dummy.m */,
+				77F31EA00AE1950F47F4DED1808FF059 /* Pods-BeWiseUITests-frameworks.sh */,
+				EFFAC13E7CFFE776266B869DF6F23EE1 /* Pods-BeWiseUITests-resources.sh */,
+				1AF0183920A3C82E90138D7277324BD8 /* Pods-BeWiseUITests-umbrella.h */,
+				A08D60E6534AABC77E9FBC11D70E4A99 /* Pods-BeWiseUITests.debug.xcconfig */,
+				995237D22DCD8894D6684DFB26D17A01 /* Pods-BeWiseUITests.release.xcconfig */,
+			);
+			name = "Pods-BeWiseUITests";
+			path = "Target Support Files/Pods-BeWiseUITests";
+			sourceTree = "<group>";
+		};
+		A160AFD112C866FA54D9EBDA093369D4 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				ED573C19CD263D2AE47830D0A28AC3EB /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		A1D54B1A9688E07532BEAFF98D155507 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA57FA5A646A410C3C545CA99D06E35 /* Firebase */,
+				41ABA99BD72254F2795F967BAA2E0999 /* FirebaseAnalytics */,
+				A160AFD112C866FA54D9EBDA093369D4 /* FirebaseCore */,
+				9056CF623A3CC2CCDE0797D0D51A6F32 /* FirebaseInstanceID */,
+				0CC54EAB5EBFCECF62639F503DEAC273 /* GoogleToolboxForMac */,
+				3EF462CFDAD90CBFA154735970789F14 /* Socket.IO-Client-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D470445DAB160DB1015109B1B94DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE5BF99CFA8EF91D500C61C4A04AD82 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D72A639F358BF727F5737931B15A494B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5829440680C6ED7BE99AB5AB0F8087 /* Info.plist */,
+				58BF846B91C46C5B12E480D436C71BC9 /* Socket.IO-Client-Swift.modulemap */,
+				4DB04EC6CC0315543DBF070B4B6FE9FB /* Socket.IO-Client-Swift.xcconfig */,
+				8D9C712CAC7765DA09D4DA6D6396B274 /* Socket.IO-Client-Swift-dummy.m */,
+				B59C258969825A473DCBBC51A85D1B6D /* Socket.IO-Client-Swift-prefix.pch */,
+				2367B6ED70C65C325940FD4D54DF3134 /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		ED573C19CD263D2AE47830D0A28AC3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F891A2693E3A257CE363642A116E25B4 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2425BE60C4E69F63CBC817104A70972 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F611B9E2FB0DDD05A714CB89C85A8554 /* GoogleToolboxForMac.modulemap */,
+				89D874D5827DE4A50769E07033E8AE9E /* GoogleToolboxForMac.xcconfig */,
+				297E0424DCE3C553D1D4817599412318 /* GoogleToolboxForMac-dummy.m */,
+				410DDC025EBF9BC72284344FAB5E3FCA /* GoogleToolboxForMac-prefix.pch */,
+				CCB62FF2BF0CB16B7E5175B29942957C /* GoogleToolboxForMac-umbrella.h */,
+				0E572C26B8AC7E1F38B05C24E20EF18D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83E6E439CBF97E31DEEC4AE14E59CC48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B33756196022F29935294DFFF7E87C1 /* Pods-BeWiseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDCD6A106F65C4E9082FDFA57BF247B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C8139AD0AF6A5617BA7A859018492B /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E239CD9F623A938B7DC140D84B0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A75233851A106334DE25C0C6C7D1F5B /* Pods-BeWise-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3272BC6107CB84F8C33F1F490879B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CF74682BBC4D911862A2CFD1D1D65D /* Pods-BeWiseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = EAF3911E687ED0D035AE53DB6544135F /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5686FE2BA4A24DD2668BDE4DF6B0F769 /* Pods-BeWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B16FFE6531A9421505D745E5EDC0187 /* Build configuration list for PBXNativeTarget "Pods-BeWiseTests" */;
+			buildPhases = (
+				A2B73E74BD97172D2CE899B68FE3FA93 /* Sources */,
+				1D7B18FD518EF19ADD556FF7B33A2D23 /* Frameworks */,
+				FF3272BC6107CB84F8C33F1F490879B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BeWiseTests";
+			productName = "Pods-BeWiseTests";
+			productReference = CDAA8960FC0F33764C0DB1F8A1083DF2 /* Pods_BeWiseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6766519B81DA5420EC83009BA4E6CBE8 /* Pods-BeWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1589300FCBFD23B803ECA72A693EB3AD /* Build configuration list for PBXNativeTarget "Pods-BeWiseUITests" */;
+			buildPhases = (
+				04FF0D461EA0F627A0A5AFD820654166 /* Sources */,
+				4C803C839213463E08F9A67DB0A4F09A /* Frameworks */,
+				83E6E439CBF97E31DEEC4AE14E59CC48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BeWiseUITests";
+			productName = "Pods-BeWiseUITests";
+			productReference = 78E7CBA952DA11B8FF2CC2F73E18D5AE /* Pods_BeWiseUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D68E0427F2E381C6495EC9F510ED575 /* Pods-BeWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAAD5983C049BA898DB0E267F9D9767 /* Build configuration list for PBXNativeTarget "Pods-BeWise" */;
+			buildPhases = (
+				EC67D24BAF5B1AD149F2E90A2E3977DF /* Sources */,
+				92154730CB21BC790ABB979CD16682C9 /* Frameworks */,
+				DD36E239CD9F623A938B7DC140D84B0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922D04C64A83B79879C6B6113D9CB564 /* PBXTargetDependency */,
+				BE51DAA016304E5456B4C7364EE13DD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BeWise";
+			productName = "Pods-BeWise";
+			productReference = DE8C3B3FAF942B65D861DC1BD027A2DF /* Pods_BeWise.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90222974F9985A20CE45EA54B85A02ED /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2C5A13188E05380E933FBCBFB89842 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				C796BC90CE2020A2F05DB44EE69EEED9 /* Sources */,
+				472B3C581617C91951B792CA312CB990 /* Frameworks */,
+				9BDCD6A106F65C4E9082FDFA57BF247B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socket.IO-Client-Swift";
+			productName = "Socket.IO-Client-Swift";
+			productReference = ADA00B11F4C3320E3424CEBE6DBE1861 /* SocketIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 10F7A8E14DE4BEF1B70FDD0F3F67C165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				8D68E0427F2E381C6495EC9F510ED575 /* Pods-BeWise */,
+				5686FE2BA4A24DD2668BDE4DF6B0F769 /* Pods-BeWiseTests */,
+				6766519B81DA5420EC83009BA4E6CBE8 /* Pods-BeWiseUITests */,
+				90222974F9985A20CE45EA54B85A02ED /* Socket.IO-Client-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FF0D461EA0F627A0A5AFD820654166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30265DCD4DD9A562779AA6348074FE /* Pods-BeWiseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B73E74BD97172D2CE899B68FE3FA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFA5502D8B0C9F025A8F23440EA7DDA /* Pods-BeWiseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C796BC90CE2020A2F05DB44EE69EEED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251BC9666B9AB3EF771F36166A9F00A /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				50D992817F2881F590997DCB5FE13EA0 /* SocketAckEmitter.swift in Sources */,
+				C455E5D4BEC87250E8888CC7296E8567 /* SocketAckManager.swift in Sources */,
+				598E4024A4945328C336BEDD631D8AAC /* SocketAnyEvent.swift in Sources */,
+				6741565AF67280DC5A31E27DE925A068 /* SocketClientManager.swift in Sources */,
+				5D10820CF7DC0AA37EB418BF44EE1559 /* SocketEngine.swift in Sources */,
+				389827816E7686A2B6976B9CD20FD34C /* SocketEngineClient.swift in Sources */,
+				1D7D437819DD4E4C8E98B775A09E6A35 /* SocketEnginePacketType.swift in Sources */,
+				6D7E9D6209BBC04C39566974B5F9F7F1 /* SocketEnginePollable.swift in Sources */,
+				B904C43288E63D71D9261EB0693CD33F /* SocketEngineSpec.swift in Sources */,
+				AE743B287496025322C9DD35EC7011AF /* SocketEngineWebsocket.swift in Sources */,
+				14A9FBF2388B51C553A02C742B411E2C /* SocketEventHandler.swift in Sources */,
+				50598A49DBB4C7DF9F555AB5ED51673F /* SocketExtensions.swift in Sources */,
+				3E10839BBE9A5A12C43084E12E30048C /* SocketIOClient.swift in Sources */,
+				66EBC0A51DDD1D0005F0E148B56ECB74 /* SocketIOClientConfiguration.swift in Sources */,
+				D957484C982CBCA1BB3930C7A2490246 /* SocketIOClientOption.swift in Sources */,
+				A15EC2D2A269190330B515D843DDD7B7 /* SocketIOClientSpec.swift in Sources */,
+				C897FF2C650ECC86B04D0944BDCAEBAE /* SocketIOClientStatus.swift in Sources */,
+				35E60AD5CE99F4D0EC1BA7B11123ED0B /* SocketLogger.swift in Sources */,
+				864372D138250C14D146B4D575FB28CE /* SocketPacket.swift in Sources */,
+				AFF2EF4B13CC4D0A90FBD4E2DA65F12B /* SocketParsable.swift in Sources */,
+				FDDD447457D9B1056839C0A376E1D9CB /* SocketStringReader.swift in Sources */,
+				ECB4620B8BB8D825B770A1B2042BD362 /* SocketTypes.swift in Sources */,
+				42C70482CE6F9885AB84ED05F1C82615 /* SSLSecurity.swift in Sources */,
+				062613301CDDDD8C346B1ACB96E24A3E /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC67D24BAF5B1AD149F2E90A2E3977DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D20BE8E8FBF69C018C0A0E1C4686C1 /* Pods-BeWise-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		922D04C64A83B79879C6B6113D9CB564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 84C5880481EF5C548766E8816DCD9DBB /* PBXContainerItemProxy */;
+		};
+		BE51DAA016304E5456B4C7364EE13DD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Socket.IO-Client-Swift";
+			target = 90222974F9985A20CE45EA54B85A02ED /* Socket.IO-Client-Swift */;
+			targetProxy = 07EA5823DDB0157BD50CEBDFA3E25E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		117D065ADA8BB2A7EEC1074874440436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB04EC6CC0315543DBF070B4B6FE9FB /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		292873001EEE1D929CAA2CCDDB53ACC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF8ACE8D9C84AAE6DDB58DE4CA8C95B /* Pods-BeWise.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWise/Pods-BeWise.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352624E5DC22251C4AE5CC85758C1C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C50E450A6BBD8FC9ECA84216D2EAAF /* Pods-BeWise.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWise/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWise/Pods-BeWise.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F39FA0A21A12CF883DC26F6B28001FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995237D22DCD8894D6684DFB26D17A01 /* Pods-BeWiseUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWiseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWiseUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D874D5827DE4A50769E07033E8AE9E /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7379844EFFB7D1E82B70C871AB68ED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE034A8943C239C8130550501CC8E07 /* Pods-BeWiseTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWiseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWiseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C31520FDF6A0C12C15645146C00015F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572A33700FC21E8630E48CD2496637BB /* Pods-BeWiseTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWiseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWiseTests/Pods-BeWiseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWiseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D874D5827DE4A50769E07033E8AE9E /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1F94BD716877D3A289A2D5C75A4E568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB04EC6CC0315543DBF070B4B6FE9FB /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4F153FAC7D623629AE00181FB4A3974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08D60E6534AABC77E9FBC11D70E4A99 /* Pods-BeWiseUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BeWiseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BeWiseUITests/Pods-BeWiseUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BeWiseUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1589300FCBFD23B803ECA72A693EB3AD /* Build configuration list for PBXNativeTarget "Pods-BeWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F153FAC7D623629AE00181FB4A3974 /* Debug */,
+				3F39FA0A21A12CF883DC26F6B28001FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B16FFE6531A9421505D745E5EDC0187 /* Build configuration list for PBXNativeTarget "Pods-BeWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C31520FDF6A0C12C15645146C00015F /* Debug */,
+				7379844EFFB7D1E82B70C871AB68ED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAAD5983C049BA898DB0E267F9D9767 /* Build configuration list for PBXNativeTarget "Pods-BeWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292873001EEE1D929CAA2CCDDB53ACC0 /* Debug */,
+				352624E5DC22251C4AE5CC85758C1C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2C5A13188E05380E933FBCBFB89842 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				117D065ADA8BB2A7EEC1074874440436 /* Debug */,
+				C1F94BD716877D3A289A2D5C75A4E568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
